@@ -1,0 +1,12 @@
+{
+  "admin": {
+    "username": "Admin",
+    "password": "admin123",
+    "description": "Public OrangeHRM demo administrator account"
+  },
+  "apiUser": {
+    "username": "emilys",
+    "password": "emilyspass",
+    "description": "Public DummyJSON authentication test account"
+  }
+}
