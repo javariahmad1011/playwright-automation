@@ -1,0 +1,13 @@
+{
+  "defaultEmployee": {
+    "firstName": "Automation",
+    "middleName": "QA",
+    "lastName": "Candidate"
+  },
+  "updatedEmployee": {
+    "firstName": "UpdatedAutomation"
+  },
+  "search": {
+    "expectedMinimumRows": 1
+  }
+}
