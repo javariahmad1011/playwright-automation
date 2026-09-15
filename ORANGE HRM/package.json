@@ -1,0 +1,32 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional Playwright automation framework using JavaScript, Page Object Model, test data management, API testing, reporting, and CI/CD integration.",
+  "scripts": {
+    "test": "playwright test",
+    "test:demo": "cross-env ENV=demo playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:staging": "cross-env ENV=staging playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:api": "playwright test --grep @api",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:auth": "playwright test tests/login.spec.js",
+    "test:employee": "playwright test tests/employee.spec.js",
+    "test:users": "playwright test tests/user-management.spec.js",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
